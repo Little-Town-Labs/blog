@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { cn } from "@/lib/utils";
 import React, { FunctionComponent } from "react";
+import Image from "next/image";
 
 interface BreadcrumbProps {
   label: string;
@@ -30,6 +31,16 @@ export const FullWidthHeader: FunctionComponent<{
       )}
     >
       <div className="container mx-auto px-4 max-w-6xl">
+        <div className="flex justify-start pt-4 pb-2">
+          <Image
+            src="/logos/logo-white.svg"
+            alt="Little Town Labs"
+            width={240}
+            height={30}
+            className="h-8 w-auto"
+            priority
+          />
+        </div>
         {breadcrumb && (
           <Breadcrumb className="mt-8 text-inherit">
             <BreadcrumbList className="text-inherit">

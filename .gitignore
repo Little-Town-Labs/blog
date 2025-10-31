@@ -37,3 +37,31 @@ next-env.d.ts
 
 # env
 .env
+
+# IDE - VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# IDE - JetBrains (WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+
+# IDE - Vim
+*.swp
+*.swo
+*~
+
+# OS - Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OS - Linux
+*~
+
+# Backup files
+*.backup
+*.bak
+*.tmp

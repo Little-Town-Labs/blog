@@ -67,6 +67,7 @@ export default async function Page(
           { label: "Category", href: `/category/` },
           { label, href: `/category/${tag}` },
         ]}
+        className="bg-gradient-to-r from-yellow-600 to-red-600 text-white"
       />
       <div className="container mx-auto max-w-6xl">
         <FilterBar active={tag} className="my-8" />

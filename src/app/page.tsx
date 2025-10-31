@@ -36,7 +36,7 @@ export default async function Page(
 
   return (
     <>
-      <FullWidthHeader title={title} description={description} />
+      <FullWidthHeader title={title} description={description} className="bg-gradient-to-r from-yellow-600 to-red-600 text-white" />
       <div className="container mx-auto max-w-6xl">
         <FilterBar active="latest" className="my-8" />
         <BlogPostList posts={result.posts} />

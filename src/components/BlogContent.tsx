@@ -54,6 +54,7 @@ export const BlogContent = ({
           { label: "Home", href: "/" },
           { label: title, href: "" },
         ]}
+        className="bg-gradient-to-r from-yellow-600 to-red-600 text-white"
       />
       <div className="container mx-auto mt-8 px-4 max-w-6xl">
         <div className="flex items-center gap-2">

@@ -30,6 +30,7 @@ export default async function Page() {
           { label: "Home", href: "/" },
           { label: "Category", href: `/category/` },
         ]}
+        className="bg-gradient-to-r from-yellow-600 to-red-600 text-white"
       />
       <div className="container mx-auto text-xl px-4 mb-10 max-w-6xl">
         {result.tags.map((tag) => (
